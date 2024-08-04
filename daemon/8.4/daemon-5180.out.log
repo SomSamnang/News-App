@@ -1,0 +1,488 @@
+2024-08-02T00:25:52.357+0700 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [--add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.invoke=ALL-UNNAMED, --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, -Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant]
+2024-08-02T00:25:52.622+0700 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+2024-08-02T00:25:52.639+0700 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=67bc7ee4-90a4-4e6d-8067-f69e9d7a9ea4,javaHome=C:\Program Files\Java\jdk-17,daemonRegistryDir=D:\data year4\News_App\daemon,pid=5180,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2024-08-02T00:25:52.900+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+2024-08-02T00:25:52.903+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2024-08-02T00:25:52.903+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2024-08-02T00:25:52.903+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+2024-08-02T00:25:52.904+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+2024-08-02T00:25:52.907+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.907+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet1
+2024-08-02T00:25:52.909+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.910+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.232.1
+2024-08-02T00:25:52.910+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:ba01:6c72:1e33:a870%eth0
+2024-08-02T00:25:52.910+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller
+2024-08-02T00:25:52.912+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.912+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:ba9c:50d3:3a58:b14c%eth1
+2024-08-02T00:25:52.912+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet8
+2024-08-02T00:25:52.914+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.915+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.130.1
+2024-08-02T00:25:52.915+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:bd34:1f8f:806c:c1ad%eth2
+2024-08-02T00:25:52.915+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+2024-08-02T00:25:52.917+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.918+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:73d3:4545:90a8:4429%eth3
+2024-08-02T00:25:52.918+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+2024-08-02T00:25:52.920+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.920+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+2024-08-02T00:25:52.922+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.922+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+2024-08-02T00:25:52.924+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.924+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2
+2024-08-02T00:25:52.926+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.927+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:9c53:7403:7ce5:37eb%wlan0
+2024-08-02T00:25:52.927+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+2024-08-02T00:25:52.931+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.931+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter
+2024-08-02T00:25:52.933+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.934+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.56.1
+2024-08-02T00:25:52.934+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:b36e:150c:cbae:73d0%eth7
+2024-08-02T00:25:52.934+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter
+2024-08-02T00:25:52.937+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.937+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:581b:b6d4:b75d:166f%wlan1
+2024-08-02T00:25:52.937+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+2024-08-02T00:25:52.939+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.939+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+2024-08-02T00:25:52.941+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.941+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+2024-08-02T00:25:52.943+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.943+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+2024-08-02T00:25:52.945+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.945+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+2024-08-02T00:25:52.947+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.948+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+2024-08-02T00:25:52.950+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.950+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz
+2024-08-02T00:25:52.952+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.952+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.0.103
+2024-08-02T00:25:52.952+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:a0d1:273b:9f59:290%wlan2
+2024-08-02T00:25:52.952+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+2024-08-02T00:25:52.954+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.954+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek USB FE Family Controller
+2024-08-02T00:25:52.956+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.956+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:52.958+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.958+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-WFP Native MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:52.960+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.960+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-VirtualBox NDIS Light-Weight Filter-0000
+2024-08-02T00:25:52.963+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.963+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-QoS Packet Scheduler-0000
+2024-08-02T00:25:52.965+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.965+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:52.966+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.967+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000
+2024-08-02T00:25:52.969+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.969+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:52.971+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.971+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz-WFP Native MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:52.973+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.973+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz-Virtual WiFi Filter Driver-0000
+2024-08-02T00:25:52.975+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.975+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz-Native WiFi Filter Driver-0000
+2024-08-02T00:25:52.977+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.977+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz-VirtualBox NDIS Light-Weight Filter-0000
+2024-08-02T00:25:52.979+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.979+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz-QoS Packet Scheduler-0000
+2024-08-02T00:25:52.981+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.981+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz-WFP 802.3 MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:52.983+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.983+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:52.986+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.986+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+2024-08-02T00:25:52.988+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.989+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:52.991+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.991+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+2024-08-02T00:25:52.992+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.993+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:52.995+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.995+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2024-08-02T00:25:52.997+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.997+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:52.999+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:52.999+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2024-08-02T00:25:53.002+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:53.002+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000
+2024-08-02T00:25:53.004+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:53.004+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+2024-08-02T00:25:53.006+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:53.006+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:53.008+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:53.008+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:53.010+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:53.010+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000
+2024-08-02T00:25:53.012+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:53.012+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-VirtualBox NDIS Light-Weight Filter-0000
+2024-08-02T00:25:53.014+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:53.014+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000
+2024-08-02T00:25:53.017+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:53.017+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+2024-08-02T00:25:53.020+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-08-02T00:25:53.026+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]].
+2024-08-02T00:25:53.044+0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Fri Aug 02 00:25:53 ICT 2024, with address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:25:53.045+0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:25:53.045+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=67bc7ee4-90a4-4e6d-8067-f69e9d7a9ea4,javaHome=C:\Program Files\Java\jdk-17,daemonRegistryDir=D:\data year4\News_App\daemon,pid=5180,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2024-08-02T00:25:53.046+0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]], context: DefaultDaemonContext[uid=67bc7ee4-90a4-4e6d-8067-f69e9d7a9ea4,javaHome=C:\Program Files\Java\jdk-17,daemonRegistryDir=D:\data year4\News_App\daemon,pid=5180,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2024-08-02T00:25:53.070+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-08-02T00:25:53.074+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:25:53.087+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:25:53.087+0700 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+2024-08-02T00:25:53.089+0700 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+2024-08-02T00:25:53.095+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:54607 to /127.0.0.1:54606.
+2024-08-02T00:25:53.095+0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+2024-08-02T00:25:53.098+0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+2024-08-02T00:25:53.098+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-08-02T00:25:53.189+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: received class org.gradle.launcher.daemon.protocol.Build
+2024-08-02T00:25:53.190+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 22: Received non-IO message from client: Build{id=68e22b2a-8fa5-460c-bec1-95e82704b058, currentDir=D:\data year4\News_App}
+2024-08-02T00:25:53.190+0700 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=68e22b2a-8fa5-460c-bec1-95e82704b058, currentDir=D:\data year4\News_App}.
+2024-08-02T00:25:53.190+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=68e22b2a-8fa5-460c-bec1-95e82704b058, currentDir=D:\data year4\News_App} with connection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54607.
+2024-08-02T00:25:53.192+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=68e22b2a-8fa5-460c-bec1-95e82704b058, currentDir=D:\data year4\News_App}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54607] after 0.0 minutes of idle
+2024-08-02T00:25:53.192+0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:25:53.192+0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:25:53.199+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-08-02T00:25:53.200+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:25:53.209+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:25:53.210+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-08-02T00:25:53.210+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-08-02T00:25:53.210+0700 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=68e22b2a-8fa5-460c-bec1-95e82704b058, currentDir=D:\data year4\News_App}. Dispatching build started information...
+2024-08-02T00:25:53.210+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@2b1cf0b
+2024-08-02T00:25:53.211+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: received class org.gradle.launcher.daemon.protocol.CloseInput
+2024-08-02T00:25:53.212+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 22: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@6c5a3a64
+2024-08-02T00:25:53.212+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, PROCESSOR_LEVEL, SESSIONNAME, ALLUSERSPROFILE, INTEL_DEV_REDIST, PROCESSOR_ARCHITECTURE, MIC_LD_LIBRARY_PATH, PSModulePath, SystemDrive, PT8HOME, MAVEN_HOME, USERNAME, ProgramFiles(x86), PATHEXT, DriverData, OneDriveConsumer, SSMA_M2SS_EP_HOME, PyCharm Community Edition, ProgramData, ProgramW6432, HOMEPATH, PROCESSOR_IDENTIFIER, ProgramFiles, PUBLIC, windir, =::, LOCALAPPDATA, ChocolateyLastPathUpdate, IntelliJ IDEA, USERDOMAIN, LOGONSERVER, JAVA_HOME, OneDrive, QT_DEVICE_PIXEL_RATIO, APPDATA, ChocolateyInstall, VBOX_MSI_INSTALL_PATH, CommonProgramFiles, PT7HOME, Path, OS, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, TEMP, SystemRoot, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), NUMBER_OF_PROCESSORS, IDEA_INITIAL_DIRECTORY]
+2024-08-02T00:25:53.217+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2024-08-02T00:25:53.217+0700 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 5180). The daemon log file: D:\data year4\News_App\daemon\8.4\daemon-5180.out.log
+2024-08-02T00:25:53.219+0700 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 2 GiB]
+2024-08-02T00:25:53.220+0700 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2024-08-02T00:25:53.220+0700 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+2024-08-02T00:25:53.221+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2024-08-02T00:25:53.222+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=67bc7ee4-90a4-4e6d-8067-f69e9d7a9ea4,javaHome=C:\Program Files\Java\jdk-17,daemonRegistryDir=D:\data year4\News_App\daemon,pid=5180,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+BUILD SUCCESSFUL in 31s
+2024-08-02T00:26:22.806+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2024-08-02T00:26:22.832+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-08-02T00:26:22.833+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=68e22b2a-8fa5-460c-bec1-95e82704b058, currentDir=D:\data year4\News_App}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54607]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@3d247bba with state Busy
+2024-08-02T00:26:22.834+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=68e22b2a-8fa5-460c-bec1-95e82704b058, currentDir=D:\data year4\News_App}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54607]
+2024-08-02T00:26:22.834+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-08-02T00:26:22.835+0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:26:22.836+0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:26:22.837+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-08-02T00:26:22.839+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:22.841+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:22.842+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-08-02T00:26:22.842+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@51cd365]
+2024-08-02T00:26:22.842+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@51cd365]
+2024-08-02T00:26:22.848+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: received class org.gradle.launcher.daemon.protocol.Finished
+2024-08-02T00:26:22.849+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 22: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@6a8c1730
+2024-08-02T00:26:22.850+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=68e22b2a-8fa5-460c-bec1-95e82704b058, currentDir=D:\data year4\News_App}
+2024-08-02T00:26:22.850+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@6a8c1730
+2024-08-02T00:26:22.851+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: stopping connection
+2024-08-02T00:26:22.851+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2024-08-02T00:26:22.852+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: received null
+2024-08-02T00:26:22.852+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 22: Received end-of-input from client.
+2024-08-02T00:26:22.861+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: stopping connection
+2024-08-02T00:26:23.127+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:26:23.142+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:23.181+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:23.193+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:26:23.194+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:23.196+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:27.209+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 424091648 free
+2024-08-02T00:26:27.209+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:26:27.209+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 424091648 free
+2024-08-02T00:26:33.116+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:26:33.117+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:33.120+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:33.121+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:26:33.122+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:33.122+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:33.123+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:26:33.124+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:33.124+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:37.220+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 553807872 free
+2024-08-02T00:26:37.220+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:26:37.220+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 553807872 free
+2024-08-02T00:26:42.207+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 622481408 free
+2024-08-02T00:26:42.208+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:26:42.208+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 622481408 free
+2024-08-02T00:26:43.101+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:26:43.102+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:43.102+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:43.103+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:26:43.103+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:43.103+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:43.104+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:26:43.104+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:43.104+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:47.221+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 494530560 free
+2024-08-02T00:26:47.221+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:26:47.221+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 494530560 free
+2024-08-02T00:26:52.212+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 480882688 free
+2024-08-02T00:26:52.212+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:26:52.212+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 480882688 free
+2024-08-02T00:26:53.110+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:26:53.110+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:53.111+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:53.112+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:26:53.112+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:53.112+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:53.113+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:26:53.113+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:26:53.113+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:26:57.206+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 458416128 free
+2024-08-02T00:26:57.206+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:26:57.206+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 458416128 free
+2024-08-02T00:27:02.208+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 447070208 free
+2024-08-02T00:27:02.209+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:27:02.209+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 447070208 free
+2024-08-02T00:27:03.099+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:27:03.099+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:27:03.099+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:27:03.100+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:27:03.100+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:27:03.100+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:27:03.101+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:27:03.101+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:27:03.101+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:27:07.213+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 432918528 free
+2024-08-02T00:27:07.213+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:27:07.213+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 432918528 free
+2024-08-02T00:27:12.208+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 423321600 free
+2024-08-02T00:27:12.208+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:27:12.208+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 423321600 free
+2024-08-02T00:27:12.927+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:54679 to /127.0.0.1:54606.
+2024-08-02T00:27:12.960+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 127: received class org.gradle.launcher.daemon.protocol.Build
+2024-08-02T00:27:12.960+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 127: Received non-IO message from client: Build{id=4b1de429-563a-4288-9f67-5f06737e3f84, currentDir=D:\data year4\News_App}
+2024-08-02T00:27:12.961+0700 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=4b1de429-563a-4288-9f67-5f06737e3f84, currentDir=D:\data year4\News_App}.
+2024-08-02T00:27:12.961+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=4b1de429-563a-4288-9f67-5f06737e3f84, currentDir=D:\data year4\News_App} with connection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54679.
+2024-08-02T00:27:12.962+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=4b1de429-563a-4288-9f67-5f06737e3f84, currentDir=D:\data year4\News_App}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54679] after 0.0 minutes of idle
+2024-08-02T00:27:12.963+0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:27:12.964+0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:27:12.965+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-08-02T00:27:12.965+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:27:12.967+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:27:12.968+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-08-02T00:27:12.968+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-08-02T00:27:12.969+0700 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=4b1de429-563a-4288-9f67-5f06737e3f84, currentDir=D:\data year4\News_App}. Dispatching build started information...
+2024-08-02T00:27:12.969+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@7acb6c3a
+2024-08-02T00:27:12.972+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 127: received class org.gradle.launcher.daemon.protocol.CloseInput
+2024-08-02T00:27:12.973+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 127: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@192eeeb3
+2024-08-02T00:27:12.973+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, PROCESSOR_LEVEL, SESSIONNAME, ALLUSERSPROFILE, INTEL_DEV_REDIST, PROCESSOR_ARCHITECTURE, MIC_LD_LIBRARY_PATH, PSModulePath, SystemDrive, PT8HOME, MAVEN_HOME, USERNAME, ProgramFiles(x86), PATHEXT, DriverData, OneDriveConsumer, SSMA_M2SS_EP_HOME, PyCharm Community Edition, ProgramData, ProgramW6432, HOMEPATH, PROCESSOR_IDENTIFIER, ProgramFiles, PUBLIC, windir, =::, LOCALAPPDATA, ChocolateyLastPathUpdate, IntelliJ IDEA, USERDOMAIN, LOGONSERVER, JAVA_HOME, OneDrive, QT_DEVICE_PIXEL_RATIO, APPDATA, ChocolateyInstall, VBOX_MSI_INSTALL_PATH, CommonProgramFiles, PT7HOME, Path, OS, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, TEMP, SystemRoot, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), NUMBER_OF_PROCESSORS, IDEA_INITIAL_DIRECTORY]
+2024-08-02T00:27:12.976+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2024-08-02T00:27:12.976+0700 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 5180). The daemon log file: D:\data year4\News_App\daemon\8.4\daemon-5180.out.log
+2024-08-02T00:27:12.990+0700 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 2nd build in daemon [uptime: 1 mins 20.55 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+2024-08-02T00:27:12.991+0700 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2024-08-02T00:27:12.991+0700 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+2024-08-02T00:27:12.991+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2024-08-02T00:27:12.992+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=67bc7ee4-90a4-4e6d-8067-f69e9d7a9ea4,javaHome=C:\Program Files\Java\jdk-17,daemonRegistryDir=D:\data year4\News_App\daemon,pid=5180,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+BUILD SUCCESSFUL in 8s
+2024-08-02T00:27:21.848+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2024-08-02T00:27:21.865+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-08-02T00:27:21.865+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=4b1de429-563a-4288-9f67-5f06737e3f84, currentDir=D:\data year4\News_App}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54679]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@3d247bba with state Busy
+2024-08-02T00:27:21.865+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=4b1de429-563a-4288-9f67-5f06737e3f84, currentDir=D:\data year4\News_App}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54679]
+2024-08-02T00:27:21.865+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-08-02T00:27:21.866+0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:27:21.866+0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:27:21.866+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-08-02T00:27:21.867+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:27:21.867+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:27:21.868+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-08-02T00:27:21.868+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@50eba765]
+2024-08-02T00:27:21.868+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@50eba765]
+2024-08-02T00:27:21.869+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=4b1de429-563a-4288-9f67-5f06737e3f84, currentDir=D:\data year4\News_App}
+2024-08-02T00:27:21.869+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 127: received class org.gradle.launcher.daemon.protocol.Finished
+2024-08-02T00:27:21.869+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 127: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@17e913e6
+2024-08-02T00:27:21.869+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@17e913e6
+2024-08-02T00:27:21.869+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2024-08-02T00:27:21.869+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: stopping connection
+2024-08-02T00:27:21.869+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 127: received null
+2024-08-02T00:27:21.870+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 127: Received end-of-input from client.
+2024-08-02T00:27:21.870+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: stopping connection
+2024-08-02T00:27:22.207+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 332627968 free
+2024-08-02T00:27:22.207+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:27:22.208+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 332627968 free
+2024-08-02T00:27:23.110+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:27:23.110+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:27:23.116+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:27:23.117+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:27:23.117+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:27:23.117+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:27:27.210+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 354381824 free
+2024-08-02T00:27:27.211+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:27:27.211+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 354381824 free
+2024-08-02T00:27:30.027+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:54680 to /127.0.0.1:54606.
+2024-08-02T00:27:30.033+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 191: received class org.gradle.launcher.daemon.protocol.InvalidateVirtualFileSystem
+2024-08-02T00:27:30.033+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 191: Received non-IO message from client: InvalidateVirtualFileSystem[id=ea11953d-ba2d-4e4d-8422-dce99c9bc5ce]
+2024-08-02T00:27:30.034+0700 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: InvalidateVirtualFileSystem[id=ea11953d-ba2d-4e4d-8422-dce99c9bc5ce].
+2024-08-02T00:27:30.034+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: InvalidateVirtualFileSystem[id=ea11953d-ba2d-4e4d-8422-dce99c9bc5ce] with connection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54680.
+2024-08-02T00:27:30.034+0700 [INFO] [org.gradle.launcher.daemon.server.api.HandleInvalidateVirtualFileSystem] Invalidating [D:\data year4\News_App\gradle\libs.versions.toml, D:\data year4\News_App\app\build.gradle.kts]
+2024-08-02T00:27:30.035+0700 [DEBUG] [org.gradle.internal.vfs.impl.AbstractVirtualFileSystem] Invalidating VFS paths: [D:\data year4\News_App\gradle\libs.versions.toml, D:\data year4\News_App\app\build.gradle.kts]
+2024-08-02T00:27:30.042+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: dispatching Success[value=null]
+2024-08-02T00:27:30.043+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: InvalidateVirtualFileSystem[id=ea11953d-ba2d-4e4d-8422-dce99c9bc5ce]
+2024-08-02T00:27:30.043+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 191: received class org.gradle.launcher.daemon.protocol.Finished
+2024-08-02T00:27:30.043+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 191: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@3897a7b1
+2024-08-02T00:27:30.043+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@3897a7b1
+2024-08-02T00:27:30.043+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: stopping connection
+2024-08-02T00:27:30.045+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:54681 to /127.0.0.1:54606.
+2024-08-02T00:27:30.048+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2024-08-02T00:27:30.048+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 191: received null
+2024-08-02T00:27:30.048+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 191: Received end-of-input from client.
+2024-08-02T00:27:30.049+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: stopping connection
+2024-08-02T00:27:30.051+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 193: received class org.gradle.launcher.daemon.protocol.Build
+2024-08-02T00:27:30.051+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 193: Received non-IO message from client: Build{id=67bee333-9f5a-4fa1-9f36-3ee2ed083b83, currentDir=D:\data year4\News_App}
+2024-08-02T00:27:30.051+0700 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=67bee333-9f5a-4fa1-9f36-3ee2ed083b83, currentDir=D:\data year4\News_App}.
+2024-08-02T00:27:30.051+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=67bee333-9f5a-4fa1-9f36-3ee2ed083b83, currentDir=D:\data year4\News_App} with connection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54681.
+2024-08-02T00:27:30.051+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=67bee333-9f5a-4fa1-9f36-3ee2ed083b83, currentDir=D:\data year4\News_App}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54681] after 0.0 minutes of idle
+2024-08-02T00:27:30.051+0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:27:30.052+0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:27:30.052+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-08-02T00:27:30.053+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:27:30.054+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:27:30.054+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-08-02T00:27:30.054+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-08-02T00:27:30.054+0700 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=67bee333-9f5a-4fa1-9f36-3ee2ed083b83, currentDir=D:\data year4\News_App}. Dispatching build started information...
+2024-08-02T00:27:30.055+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@1bf2c5b4
+2024-08-02T00:27:30.055+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, PROCESSOR_LEVEL, SESSIONNAME, ALLUSERSPROFILE, INTEL_DEV_REDIST, PROCESSOR_ARCHITECTURE, MIC_LD_LIBRARY_PATH, PSModulePath, SystemDrive, PT8HOME, MAVEN_HOME, USERNAME, ProgramFiles(x86), PATHEXT, DriverData, OneDriveConsumer, SSMA_M2SS_EP_HOME, PyCharm Community Edition, ProgramData, ProgramW6432, HOMEPATH, PROCESSOR_IDENTIFIER, ProgramFiles, PUBLIC, windir, =::, LOCALAPPDATA, ChocolateyLastPathUpdate, IntelliJ IDEA, USERDOMAIN, LOGONSERVER, JAVA_HOME, OneDrive, QT_DEVICE_PIXEL_RATIO, APPDATA, ChocolateyInstall, VBOX_MSI_INSTALL_PATH, CommonProgramFiles, PT7HOME, Path, OS, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, TEMP, SystemRoot, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), NUMBER_OF_PROCESSORS, IDEA_INITIAL_DIRECTORY]
+2024-08-02T00:27:30.057+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2024-08-02T00:27:30.058+0700 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 5180). The daemon log file: D:\data year4\News_App\daemon\8.4\daemon-5180.out.log
+2024-08-02T00:27:30.058+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 193: received class org.gradle.launcher.daemon.protocol.CloseInput
+2024-08-02T00:27:30.059+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 193: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@1c8ec8eb
+2024-08-02T00:27:30.059+0700 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 3rd build in daemon [uptime: 1 mins 37.631 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+2024-08-02T00:27:30.060+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2024-08-02T00:27:30.060+0700 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2024-08-02T00:27:30.060+0700 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+2024-08-02T00:27:30.060+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=67bc7ee4-90a4-4e6d-8067-f69e9d7a9ea4,javaHome=C:\Program Files\Java\jdk-17,daemonRegistryDir=D:\data year4\News_App\daemon,pid=5180,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+BUILD SUCCESSFUL in 24s
+2024-08-02T00:27:54.589+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2024-08-02T00:27:54.712+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-08-02T00:27:54.713+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=67bee333-9f5a-4fa1-9f36-3ee2ed083b83, currentDir=D:\data year4\News_App}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54681]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@3d247bba with state Busy
+2024-08-02T00:27:54.714+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=67bee333-9f5a-4fa1-9f36-3ee2ed083b83, currentDir=D:\data year4\News_App}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54606 to /127.0.0.1:54681]
+2024-08-02T00:27:54.714+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-08-02T00:27:54.715+0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:27:54.719+0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:27:54.720+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-08-02T00:27:54.721+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:27:54.723+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:27:54.724+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-08-02T00:27:54.724+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@3dde279]
+2024-08-02T00:27:54.724+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 192: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@3dde279]
+2024-08-02T00:27:54.727+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=67bee333-9f5a-4fa1-9f36-3ee2ed083b83, currentDir=D:\data year4\News_App}
+2024-08-02T00:27:54.727+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 193: received class org.gradle.launcher.daemon.protocol.Finished
+2024-08-02T00:27:54.728+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 193: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@1249250a
+2024-08-02T00:27:54.728+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@1249250a
+2024-08-02T00:27:54.728+0700 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2024-08-02T00:27:54.729+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 193: received null
+2024-08-02T00:27:54.729+0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 193: Received end-of-input from client.
+2024-08-02T00:27:54.729+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 192: stopping connection
+2024-08-02T00:27:54.732+0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 192: stopping connection
+2024-08-02T00:27:55.754+0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on file hash cache (D:\data year4\News_App\caches\8.4\fileHashes) requested by another process - releasing lock.
+2024-08-02T00:27:55.755+0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (D:\data year4\News_App\caches\8.4\fileHashes)
+2024-08-02T00:27:55.756+0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (D:\data year4\News_App\caches\8.4\fileHashes\fileHashes.bin)
+2024-08-02T00:27:55.757+0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache resourceHashesCache.bin (D:\data year4\News_App\caches\8.4\fileHashes\resourceHashesCache.bin)
+2024-08-02T00:27:55.757+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (D:\data year4\News_App\caches\8.4\fileHashes).
+2024-08-02T00:27:55.759+0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 63662 for lock with id -2880557403636852262.
+2024-08-02T00:27:55.759+0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 63662 for lock with id -2880557403636852262.
+2024-08-02T00:27:55.796+0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on journal cache (D:\data year4\News_App\caches\journal-1) requested by another process - releasing lock.
+2024-08-02T00:27:55.796+0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for journal cache (D:\data year4\News_App\caches\journal-1)
+2024-08-02T00:27:55.797+0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache file-access.bin (D:\data year4\News_App\caches\journal-1\file-access.bin)
+2024-08-02T00:27:55.797+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on journal cache (D:\data year4\News_App\caches\journal-1).
+2024-08-02T00:27:55.797+0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 63662 for lock with id 713886154865728196.
+2024-08-02T00:27:55.797+0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 63662 for lock with id 713886154865728196.
+2024-08-02T00:27:57.211+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 310448128 free
+2024-08-02T00:27:57.212+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:27:57.212+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 310448128 free
+2024-08-02T00:27:57.798+0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on artifact cache (D:\data year4\News_App\caches\modules-2) requested by another process - releasing lock.
+2024-08-02T00:27:57.798+0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (D:\data year4\News_App\caches\modules-2)
+2024-08-02T00:27:57.799+0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifact.bin (D:\data year4\News_App\caches\modules-2\metadata-2.106\module-artifact.bin)
+2024-08-02T00:27:57.799+0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache resource-at-url.bin (D:\data year4\News_App\caches\modules-2\metadata-2.106\resource-at-url.bin)
+2024-08-02T00:27:57.799+0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (D:\data year4\News_App\caches\modules-2\metadata-2.106\module-metadata.bin)
+2024-08-02T00:27:57.800+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (D:\data year4\News_App\caches\modules-2).
+2024-08-02T00:27:57.800+0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 63662 for lock with id 6341068457781550767.
+2024-08-02T00:27:57.801+0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 63662 for lock with id 6341068457781550767.
+2024-08-02T00:27:58.250+0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on Artifact transforms cache (D:\data year4\News_App\caches\transforms-3) requested by another process - releasing lock.
+2024-08-02T00:27:58.250+0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Artifact transforms cache (D:\data year4\News_App\caches\transforms-3)
+2024-08-02T00:27:58.251+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Artifact transforms cache (D:\data year4\News_App\caches\transforms-3).
+2024-08-02T00:27:58.251+0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 63662 for lock with id 2008122107802321403.
+2024-08-02T00:27:58.251+0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 63662 for lock with id 2008122107802321403.
+2024-08-02T00:27:58.260+0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on execution history cache (D:\data year4\News_App\caches\8.4\executionHistory) requested by another process - releasing lock.
+2024-08-02T00:27:58.260+0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for execution history cache (D:\data year4\News_App\caches\8.4\executionHistory)
+2024-08-02T00:27:58.261+0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache executionHistory.bin (D:\data year4\News_App\caches\8.4\executionHistory\executionHistory.bin)
+2024-08-02T00:27:58.261+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on execution history cache (D:\data year4\News_App\caches\8.4\executionHistory).
+2024-08-02T00:27:58.262+0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 63662 for lock with id -3319622552221247986.
+2024-08-02T00:27:58.262+0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 63662 for lock with id -3319622552221247986.
+2024-08-02T00:28:02.211+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 265150464 free
+2024-08-02T00:28:02.211+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:28:02.211+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 265150464 free
+2024-08-02T00:28:03.107+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:28:03.108+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:03.109+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:28:03.122+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:28:03.122+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:03.123+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:28:07.213+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 337297408 free
+2024-08-02T00:28:07.213+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:28:07.213+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 337297408 free
+2024-08-02T00:28:12.213+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 349511680 free
+2024-08-02T00:28:12.213+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:28:12.213+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 349511680 free
+2024-08-02T00:28:13.103+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:28:13.103+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:13.103+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:28:13.104+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:28:13.104+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:13.104+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:28:13.105+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:28:13.105+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:13.105+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:28:17.219+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 331440128 free
+2024-08-02T00:28:17.221+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:28:17.221+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 331440128 free
+2024-08-02T00:28:22.211+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 295841792 free
+2024-08-02T00:28:22.212+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 801 of memory
+2024-08-02T00:28:22.212+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 840327577 physical memory requested, 0 released, 295841792 free
+2024-08-02T00:28:23.119+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:28:23.119+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:23.140+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:28:23.143+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:28:23.143+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:23.144+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:28:23.146+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:28:23.146+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:23.147+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:28:23.149+0700 [INFO] [org.gradle.launcher.daemon.server.health.LowMemoryDaemonExpirationStrategy] after free system physical memory (282.1 MiB) fell below threshold of 400.6 MiB
+2024-08-02T00:28:23.150+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-08-02T00:28:23.151+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:23.151+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:28:23.153+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Storing daemon stop event: other compatible daemons were started and after being idle for 0 minutes and not recently used and after being idle for 0 minutes and not recently used and to reclaim system physical memory
+2024-08-02T00:28:23.154+0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon stop event with timestamp 1722533303154
+2024-08-02T00:28:23.161+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-08-02T00:28:23.161+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:23.165+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:28:23.166+0700 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build other compatible daemons were started and after being idle for 0 minutes and not recently used and after being idle for 0 minutes and not recently used and to reclaim system physical memory
+2024-08-02T00:28:23.167+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to other compatible daemons were started and after being idle for 0 minutes and not recently used and after being idle for 0 minutes and not recently used and to reclaim system physical memory. The daemon is running a build: false
+2024-08-02T00:28:23.168+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+2024-08-02T00:28:23.168+0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2024-08-02T00:28:23.168+0700 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2024-08-02T00:28:23.172+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:28:23.179+0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:28:23.194+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-08-02T00:28:23.195+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:23.206+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-08-02T00:28:23.207+0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2024-08-02T00:28:23.245+0700 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] jars (D:\data year4\News_App\caches\jars-9) has last been fully cleaned up 0 hours ago
+2024-08-02T00:28:23.247+0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache jars (D:\data year4\News_App\caches\jars-9) was closed 4 times.
+2024-08-02T00:28:23.279+0700 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] Artifact transforms cache (D:\data year4\News_App\caches\transforms-3) has last been fully cleaned up 0 hours ago
+2024-08-02T00:28:23.282+0700 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] kotlin-dsl (D:\data year4\News_App\caches\8.4\kotlin-dsl) has last been fully cleaned up 0 hours ago
+2024-08-02T00:28:23.282+0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache kotlin-dsl (D:\data year4\News_App\caches\8.4\kotlin-dsl) was closed 3 times.
+2024-08-02T00:28:23.688+0700 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Closing VFS, dropping state
+2024-08-02T00:28:23.748+0700 [DEBUG] [org.gradle.internal.watch.registry.impl.DefaultFileWatcherRegistry] Finished listening to file system change events
+2024-08-02T00:28:23.751+0700 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] artifact cache (D:\data year4\News_App\caches\modules-2) has last been fully cleaned up 0 hours ago
+2024-08-02T00:28:23.752+0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache artifact cache (D:\data year4\News_App\caches\modules-2) was closed 7 times.
+2024-08-02T00:28:23.756+0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache journal cache (D:\data year4\News_App\caches\journal-1) was closed 11 times.
+2024-08-02T00:28:23.757+0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache file hash cache (D:\data year4\News_App\caches\8.4\fileHashes) was closed 9 times.
+2024-08-02T00:28:23.760+0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache execution history cache (D:\data year4\News_App\caches\8.4\executionHistory) was closed 2 times.
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+2024-08-02T00:28:23.770+0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [3150411d-44c7-40d6-96d5-4816a7ca2fb2 port:54606, addresses:[localhost/127.0.0.1]]
+2024-08-02T00:28:23.796+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-08-02T00:28:23.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-08-02T00:28:23.869+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.

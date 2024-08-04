@@ -1,0 +1,30 @@
+# Ignore Android Studio specific files
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Ignore Gradle build output
+/build
+/captures
+/externalNativeBuild
+.cxx
+
+# Ignore operating system specific files
+.DS_Store
+
+# Ignore local configuration files
+local.properties
+
+# Ignore lock files
+*.lock
+
+/caches
+
+.gradle/
+
